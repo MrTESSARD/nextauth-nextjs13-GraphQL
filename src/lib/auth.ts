@@ -1,6 +1,5 @@
 import type { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { PerformLoginMutation } from "./LoginMutationHelper";
 import client from '../lib/apolloClient'; // Importez le client Apollo
 import { gql } from '@apollo/client';
 
